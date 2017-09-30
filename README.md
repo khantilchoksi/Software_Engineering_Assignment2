@@ -41,7 +41,7 @@ They are basically about class instantiation which includes class-creational pat
 -------------------
 
 
-### Category II : I.	Structural Design Patterns:  
+### Category II : Structural Design Patterns:  
 It includes patterns about the Class Creation and Object composition.  
  * Class-Creation Patterns: Use of inheritance to compose interfaces.  
  * Object – Patterns: To compose objects to perform new functionality.  
