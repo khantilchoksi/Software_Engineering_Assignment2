@@ -80,4 +80,41 @@ It includes patterns about the Class Creation and Object composition.
 -------------------
     
 
+### Category III : Behavioral Design Pattern:  
+
+Behavioral design patterns that are mostly concerned with the communication between objects mainly.  
+
+#### (a) a.	Interpreter Method  
+
+  * **Definition:**  
+    * It is a way to include language elements in a program.  
+    * For the language, a representation is defined for its grammar along with an interpreter which uses the representation to interpret sentences in the given language.  
+    * So, a class of problems occurs repeatedly in a well-defined and well-understood domain and id such domain were characterized with a language, then problems could be easily solved with an interpretation engine.  
+  
+    
+  * **Description:**  
+    * Defining a problem characterization as a simple language grammar, representing domain rules as language sentences and interpreting these sentences to solve the problem.  
+    * Pattern uses a class to represent each grammar rule.  
+    * It suggests modelling the domain with a recursive grammar.  
+    * Since grammars are usually hierarchical in structure, an inheritance hierarchy of rule classes maps nicely.  
+    * It defines a grammatical representation for a language and an interpreter to interpret the grammar.  
+
+      
+        --------------------
+      
+#### (b) a.	Observer Design Pattern Method:  
+
+  * **Definition:**  
+    * It is a way of notifying change to multiple number of classes.  
+    * Define a one-to-many dependency between objects os that when one object changes state, all its dependents are notified and updated simultaneously.  
+    * Encapsulates common engine components in a Subject abstraction, and the variable components in an Observer hierarchy.  
+
+    
+  * **Description:**  
+    * An object which is keeper of the data model of the required business subject.  
+    * It delegates all view functionality to decoupled and distinct Observer objects.  
+    * It allows number of type of view objects to be configured dynamically, instead of being statically specified at compile-time.
+
+
+-------------------
  
