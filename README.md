@@ -118,3 +118,61 @@ Behavioral design patterns that are mostly concerned with the communication betw
 
 -------------------
  
+-----------------
+ 
+ 
+ 
+## 2. pattern that may be useful in building software.    
+ 
+
+#### (a) Blockchain Method  
+
+  * **Definition:**  
+    * o	It is continuously growing list of all records, which are called as blocks.  
+o	Blocks are linked and secured using the cryptography.  
+o	Each block contains a hash pointer as a link to a previous block, a timestamp and transaction data.  
+  
+    
+  * **Description:**  
+    * o	Blockchains are inherently resistant to modification of the data.  
+o	It is managed by a peer-to-peer network collectively adhering to a protocol for validating new blocks.  
+o	After reordering, the data in any given block cannot be altered retroactively without the alteration of all subsequent blocks, which needs a collusion of the network majority.  
+o	It is used in distributed computing system.  
+o	It is decentralized and distributed ledger that is used to record the transactions across multiple machines so that the record can’t be altered retroactively without the alteration of following subsequent blocks and the collusion of the network.  
+o	Therefore, it facilitates secure online transaction.  
+  
+      
+        --------------------
+      
+#### (b) Blackboard Design Method  
+
+  * **Definition:**  
+    * It is a behavioral design patterns. 
+    * This design pattern provides a computational framework for the design and implementation of systems that integrate large and diverse specialized modules, and implement complex, non-deterministic control strategies.  
+
+    
+  * **Description:**  
+    * o	It has components like blackboard, which is a structured global memory containing objects from the solution space. Moreover, knowledge sources, which is specialized modules with their own representation. Whereas, control component that selects, configures and executes modules.  
+o	Here, knowledge sources independently change centralized blackboard.  
+o	Control of the design pattern is entirely drive by the state of the blackboard.  
+  
+-------------------  
+
+      
+#### (c) Repository Design Method  
+
+  * **Definition:**  
+    * In this pattern, the business logic accesses data from the data stores such as databases, and web-services.  
+    * Maximize amount of the code can be tested with automation and to isolate the data layer to support unit testing.  
+    * Components must exchange information so they can work together effectively.   
+    * Data held in the central database system is handled and accessible by the all components.  
+
+    
+  * **Description:**  
+    * It is used to access the data source from many locations and want to apply centrally managed, consistent access rules and logic.  
+    * Using business entities that are strongly typed so that you can identify problems at compile time instead of at run time.  
+    * Behavior is associated with the related data.  
+
+ 
+  
+-------------------
