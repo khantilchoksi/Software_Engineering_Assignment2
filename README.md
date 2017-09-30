@@ -134,12 +134,12 @@ o	Each block contains a hash pointer as a link to a previous block, a timestamp 
   
     
   * **Description:**  
-    * o	Blockchains are inherently resistant to modification of the data.  
-o	It is managed by a peer-to-peer network collectively adhering to a protocol for validating new blocks.  
-o	After reordering, the data in any given block cannot be altered retroactively without the alteration of all subsequent blocks, which needs a collusion of the network majority.  
-o	It is used in distributed computing system.  
-o	It is decentralized and distributed ledger that is used to record the transactions across multiple machines so that the record can’t be altered retroactively without the alteration of following subsequent blocks and the collusion of the network.  
-o	Therefore, it facilitates secure online transaction.  
+    * Blockchains are inherently resistant to modification of the data.  
+    * It is managed by a peer-to-peer network collectively adhering to a protocol for validating new blocks.  
+    * After reordering, the data in any given block cannot be altered retroactively without the alteration of all subsequent blocks, which needs a collusion of the network majority.  
+    * It is used in distributed computing system.  
+    * It is decentralized and distributed ledger that is used to record the transactions across multiple machines so that the record can’t be altered retroactively without the alteration of following subsequent blocks and the collusion of the network.     
+    * Therefore, it facilitates secure online transaction.  
   
       
         --------------------
@@ -152,9 +152,9 @@ o	Therefore, it facilitates secure online transaction.
 
     
   * **Description:**  
-    * o	It has components like blackboard, which is a structured global memory containing objects from the solution space. Moreover, knowledge sources, which is specialized modules with their own representation. Whereas, control component that selects, configures and executes modules.  
-o	Here, knowledge sources independently change centralized blackboard.  
-o	Control of the design pattern is entirely drive by the state of the blackboard.  
+    * It has components like blackboard, which is a structured global memory containing objects from the solution space. Moreover, knowledge sources, which is specialized modules with their own representation. Whereas, control component that selects, configures and executes modules.  
+    * Here, knowledge sources independently change centralized blackboard.  
+    * Control of the design pattern is entirely drive by the state of the blackboard.  
   
 -------------------  
 
