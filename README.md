@@ -25,7 +25,7 @@ They are basically about class instantiation which includes class-creational pat
       * An existing object might be reused, instead of creating a new object.  
       * The client is totally decoupled from the implementation details of the derived classes. So, polymorphic creation is now possible.  
       
-      --------------------
+        --------------------
       
 #### (b) Singleton Method  
 
@@ -41,6 +41,43 @@ They are basically about class instantiation which includes class-creational pat
 -------------------
 
 
+### Category II : I.	Structural Design Patterns:  
+It includes patterns about the Class Creation and Object composition.  
+ * Class-Creation Patterns: Use of inheritance to compose interfaces.  
+ * Object – Patterns: To compose objects to perform new functionality.  
+
+#### (a) Facade Method  
+
+  * **Definition:**  
+    * It has a single class that represents an entire subsystem of the whole system.  
+    * So, it provides unified interface to a set of multiple interfaces in subsystem.   
+    * So, this helps to encapsulate a complicated subsystem with a simple higher-level interface that makes the subsystem easier to use.   
+
+    
+  * **Description:**  
+    * It decouples the subsystem from its potentially many clients.  
+    * Therefore, it becomes the only access point for the subsystem, which limits the features and flexibility of the power users that may be needed.  
+    * So to get a segment a simplified interface to the overall functionality of a complex subsystem required by the clients, can be given using this façade method.  
+    * Thus, factory reduces dependencies of outside code on the working of external libraries.  
+    * Moreover, a poorly designed APIs can be wrapped with single well-designed API.  
+
+      
+        --------------------
+      
+#### (b) Composite Design Method  
+
+  * **Definition:**  
+    * It is a tree structure of simple and recursive composition of the objects.  
+    * It describes a group of objects that is treated the same way as a single instance of the same type of object.  
+
+    
+  * **Description:**  
+    * To	Here, the Component is defined as abstract base class which specifies the behavior that needs to be exercised uniformly across all primitive objects as well as composite objects.  
+    * The Primitive is sub-classes and the Composite classes off the Component class.  
+    * When application needs to be manipulated a hierarchical collection of primitive and composite objects, procession of a primitive object is handled one way and processing of a composite object is handled another way.  
+    * Each Composite object couples itself only to abstract type Component as it manages its children only.  
+
+-------------------
     
 
  
