@@ -175,7 +175,13 @@ o	Each block contains a hash pointer as a link to a previous block, a timestamp 
 
  
   
--------------------
+--------------------------
+
+--------------------------
+**Reference:**  
+https://sourcemaking.com/design_patterns  
+https://en.wikipedia.org/wiki/Software_design_pattern  
+https://msdn.microsoft.com/en-us/library/ff649690.aspx  
 
 -----------------
  
@@ -183,10 +189,12 @@ o	Each block contains a hash pointer as a link to a previous block, a timestamp 
  
 ## 3. SELENIUM:  
 
-Selenium Folder with my java code : [here](https://github.ncsu.edu/khchoksi/HW2_SE/tree/master/Selenium)
+Selenium Folder with my java code: [here](https://github.ncsu.edu/khchoksi/HW2_SE/tree/master/Selenium)
 
-My java file code is attached here: 
+OR   
 
-[Please click on this link.](https://github.ncsu.edu/khchoksi/HW2_SE/blob/master/WebTest.java)
+My java code file is attached here: [Please click here](https://github.ncsu.edu/khchoksi/HW2_SE/blob/master/WebTest.java)
 
+-------------------
+Thank you.
 
